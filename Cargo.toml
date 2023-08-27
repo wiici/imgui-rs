@@ -4,4 +4,35 @@ version = "0.1.0"
 edition = "2021"
 build="build.rs"
 
+[features]
+dx11 = []
+win32 = []
+
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[build-dependencies]
+bindgen = "0.66.1"
+cc = "1.0.82"
+cmake = "0.1.50"
+
+[dev-dependencies.windows]
+version = "0.48"
+features = [
+    "Win32_Foundation",
+    "Win32_Security",
+    "Win32_System_Threading",
+    "Win32_UI_WindowsAndMessaging",
+    "Win32_UI_Shell",
+    "Win32_System_Diagnostics_ToolHelp",
+    "Win32_Graphics_Gdi",
+    "Win32_System_LibraryLoader",
+    "Win32_System_Performance",
+    "Win32_Graphics_Dxgi_Common",
+    "Win32_Graphics_Direct3D",
+    "Win32_Graphics_Direct3D11",
+]
+
+[[example]]
+name = "example_win32_directx11"
+path = "examples/example_win32_directx11.rs"
+required-features = ["win32", "dx11"]

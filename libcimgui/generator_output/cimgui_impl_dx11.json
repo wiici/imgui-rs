@@ -1,0 +1,179 @@
+{
+    "defines": [],
+    "enums": [],
+    "typedefs": [],
+    "structs": [
+        {
+            "name": "ID3D11Device",
+            "original_fully_qualified_name": "ID3D11Device",
+            "kind": "struct",
+            "by_value": false,
+            "forward_declaration": true,
+            "is_anonymous": false,
+            "fields": []
+        },
+        {
+            "name": "ID3D11DeviceContext",
+            "original_fully_qualified_name": "ID3D11DeviceContext",
+            "kind": "struct",
+            "by_value": false,
+            "forward_declaration": true,
+            "is_anonymous": false,
+            "fields": []
+        },
+        {
+            "name": "ImDrawData",
+            "original_fully_qualified_name": "ImDrawData",
+            "kind": "struct",
+            "by_value": false,
+            "forward_declaration": true,
+            "is_anonymous": false,
+            "fields": []
+        }
+    ],
+    "functions": [
+        {
+            "name": "cImGui_ImplDX11_Init",
+            "original_fully_qualified_name": "ImGui_ImplDX11_Init",
+            "return_type": {
+                "declaration": "bool",
+                "description": {
+                    "kind": "Builtin",
+                    "builtin_type": "bool"
+                }
+            },
+            "arguments": [
+                {
+                    "name": "device",
+                    "type": {
+                        "declaration": "ID3D11Device*",
+                        "description": {
+                            "kind": "Pointer",
+                            "inner_type": {
+                                "kind": "User",
+                                "name": "ID3D11Device"
+                            }
+                        }
+                    },
+                    "is_array": false,
+                    "is_varargs": false
+                },
+                {
+                    "name": "device_context",
+                    "type": {
+                        "declaration": "ID3D11DeviceContext*",
+                        "description": {
+                            "kind": "Pointer",
+                            "inner_type": {
+                                "kind": "User",
+                                "name": "ID3D11DeviceContext"
+                            }
+                        }
+                    },
+                    "is_array": false,
+                    "is_varargs": false
+                }
+            ],
+            "is_default_argument_helper": false,
+            "is_manual_helper": false,
+            "is_imstr_helper": false,
+            "has_imstr_helper": false
+        },
+        {
+            "name": "cImGui_ImplDX11_Shutdown",
+            "original_fully_qualified_name": "ImGui_ImplDX11_Shutdown",
+            "return_type": {
+                "declaration": "void",
+                "description": {
+                    "kind": "Builtin",
+                    "builtin_type": "void"
+                }
+            },
+            "arguments": [],
+            "is_default_argument_helper": false,
+            "is_manual_helper": false,
+            "is_imstr_helper": false,
+            "has_imstr_helper": false
+        },
+        {
+            "name": "cImGui_ImplDX11_NewFrame",
+            "original_fully_qualified_name": "ImGui_ImplDX11_NewFrame",
+            "return_type": {
+                "declaration": "void",
+                "description": {
+                    "kind": "Builtin",
+                    "builtin_type": "void"
+                }
+            },
+            "arguments": [],
+            "is_default_argument_helper": false,
+            "is_manual_helper": false,
+            "is_imstr_helper": false,
+            "has_imstr_helper": false
+        },
+        {
+            "name": "cImGui_ImplDX11_RenderDrawData",
+            "original_fully_qualified_name": "ImGui_ImplDX11_RenderDrawData",
+            "return_type": {
+                "declaration": "void",
+                "description": {
+                    "kind": "Builtin",
+                    "builtin_type": "void"
+                }
+            },
+            "arguments": [
+                {
+                    "name": "draw_data",
+                    "type": {
+                        "declaration": "ImDrawData*",
+                        "description": {
+                            "kind": "Pointer",
+                            "inner_type": {
+                                "kind": "User",
+                                "name": "ImDrawData"
+                            }
+                        }
+                    },
+                    "is_array": false,
+                    "is_varargs": false
+                }
+            ],
+            "is_default_argument_helper": false,
+            "is_manual_helper": false,
+            "is_imstr_helper": false,
+            "has_imstr_helper": false
+        },
+        {
+            "name": "cImGui_ImplDX11_InvalidateDeviceObjects",
+            "original_fully_qualified_name": "ImGui_ImplDX11_InvalidateDeviceObjects",
+            "return_type": {
+                "declaration": "void",
+                "description": {
+                    "kind": "Builtin",
+                    "builtin_type": "void"
+                }
+            },
+            "arguments": [],
+            "is_default_argument_helper": false,
+            "is_manual_helper": false,
+            "is_imstr_helper": false,
+            "has_imstr_helper": false
+        },
+        {
+            "name": "cImGui_ImplDX11_CreateDeviceObjects",
+            "original_fully_qualified_name": "ImGui_ImplDX11_CreateDeviceObjects",
+            "return_type": {
+                "declaration": "bool",
+                "description": {
+                    "kind": "Builtin",
+                    "builtin_type": "bool"
+                }
+            },
+            "arguments": [],
+            "is_default_argument_helper": false,
+            "is_manual_helper": false,
+            "is_imstr_helper": false,
+            "has_imstr_helper": false
+        }
+    ]
+}

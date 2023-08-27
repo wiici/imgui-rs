@@ -1,0 +1,306 @@
+{
+    "defines": [],
+    "enums": [],
+    "typedefs": [],
+    "structs": [
+        {
+            "name": "ImDrawData",
+            "original_fully_qualified_name": "ImDrawData",
+            "kind": "struct",
+            "by_value": false,
+            "forward_declaration": true,
+            "is_anonymous": false,
+            "fields": []
+        }
+    ],
+    "functions": [
+        {
+            "name": "cImGui_ImplWin32_Init",
+            "original_fully_qualified_name": "ImGui_ImplWin32_Init",
+            "return_type": {
+                "declaration": "bool",
+                "description": {
+                    "kind": "Builtin",
+                    "builtin_type": "bool"
+                }
+            },
+            "arguments": [
+                {
+                    "name": "hwnd",
+                    "type": {
+                        "declaration": "void*",
+                        "description": {
+                            "kind": "Pointer",
+                            "inner_type": {
+                                "kind": "Builtin",
+                                "builtin_type": "void"
+                            }
+                        }
+                    },
+                    "is_array": false,
+                    "is_varargs": false
+                }
+            ],
+            "is_default_argument_helper": false,
+            "is_manual_helper": false,
+            "is_imstr_helper": false,
+            "has_imstr_helper": false
+        },
+        {
+            "name": "cImGui_ImplWin32_InitForOpenGL",
+            "original_fully_qualified_name": "ImGui_ImplWin32_InitForOpenGL",
+            "return_type": {
+                "declaration": "bool",
+                "description": {
+                    "kind": "Builtin",
+                    "builtin_type": "bool"
+                }
+            },
+            "arguments": [
+                {
+                    "name": "hwnd",
+                    "type": {
+                        "declaration": "void*",
+                        "description": {
+                            "kind": "Pointer",
+                            "inner_type": {
+                                "kind": "Builtin",
+                                "builtin_type": "void"
+                            }
+                        }
+                    },
+                    "is_array": false,
+                    "is_varargs": false
+                }
+            ],
+            "is_default_argument_helper": false,
+            "is_manual_helper": false,
+            "is_imstr_helper": false,
+            "has_imstr_helper": false
+        },
+        {
+            "name": "cImGui_ImplWin32_Shutdown",
+            "original_fully_qualified_name": "ImGui_ImplWin32_Shutdown",
+            "return_type": {
+                "declaration": "void",
+                "description": {
+                    "kind": "Builtin",
+                    "builtin_type": "void"
+                }
+            },
+            "arguments": [],
+            "is_default_argument_helper": false,
+            "is_manual_helper": false,
+            "is_imstr_helper": false,
+            "has_imstr_helper": false
+        },
+        {
+            "name": "cImGui_ImplWin32_NewFrame",
+            "original_fully_qualified_name": "ImGui_ImplWin32_NewFrame",
+            "return_type": {
+                "declaration": "void",
+                "description": {
+                    "kind": "Builtin",
+                    "builtin_type": "void"
+                }
+            },
+            "arguments": [],
+            "is_default_argument_helper": false,
+            "is_manual_helper": false,
+            "is_imstr_helper": false,
+            "has_imstr_helper": false
+        },
+        {
+            "name": "cImGui_ImplWin32_WndProcHandler",
+            "original_fully_qualified_name": "ImGui_ImplWin32_WndProcHandler",
+            "return_type": {
+                "declaration": "LRESULT",
+                "description": {
+                    "kind": "User",
+                    "name": "LRESULT"
+                }
+            },
+            "arguments": [
+                {
+                    "name": "hWnd",
+                    "type": {
+                        "declaration": "HWND",
+                        "description": {
+                            "kind": "User",
+                            "name": "HWND"
+                        }
+                    },
+                    "is_array": false,
+                    "is_varargs": false
+                },
+                {
+                    "name": "msg",
+                    "type": {
+                        "declaration": "UINT",
+                        "description": {
+                            "kind": "User",
+                            "name": "UINT"
+                        }
+                    },
+                    "is_array": false,
+                    "is_varargs": false
+                },
+                {
+                    "name": "wParam",
+                    "type": {
+                        "declaration": "WPARAM",
+                        "description": {
+                            "kind": "User",
+                            "name": "WPARAM"
+                        }
+                    },
+                    "is_array": false,
+                    "is_varargs": false
+                },
+                {
+                    "name": "lParam",
+                    "type": {
+                        "declaration": "LPARAM",
+                        "description": {
+                            "kind": "User",
+                            "name": "LPARAM"
+                        }
+                    },
+                    "is_array": false,
+                    "is_varargs": false
+                }
+            ],
+            "is_default_argument_helper": false,
+            "is_manual_helper": false,
+            "is_imstr_helper": false,
+            "has_imstr_helper": false,
+            "conditionals": [
+                {
+                    "condition": "if",
+                    "expression": "0"
+                }
+            ]
+        },
+        {
+            "name": "cImGui_ImplWin32_EnableDpiAwareness",
+            "original_fully_qualified_name": "ImGui_ImplWin32_EnableDpiAwareness",
+            "return_type": {
+                "declaration": "void",
+                "description": {
+                    "kind": "Builtin",
+                    "builtin_type": "void"
+                }
+            },
+            "arguments": [],
+            "is_default_argument_helper": false,
+            "is_manual_helper": false,
+            "is_imstr_helper": false,
+            "has_imstr_helper": false
+        },
+        {
+            "name": "cImGui_ImplWin32_GetDpiScaleForHwnd",
+            "original_fully_qualified_name": "ImGui_ImplWin32_GetDpiScaleForHwnd",
+            "return_type": {
+                "declaration": "float",
+                "description": {
+                    "kind": "Builtin",
+                    "builtin_type": "float"
+                }
+            },
+            "arguments": [
+                {
+                    "name": "hwnd",
+                    "type": {
+                        "declaration": "void*",
+                        "description": {
+                            "kind": "Pointer",
+                            "inner_type": {
+                                "kind": "Builtin",
+                                "builtin_type": "void"
+                            }
+                        }
+                    },
+                    "is_array": false,
+                    "is_varargs": false
+                }
+            ],
+            "is_default_argument_helper": false,
+            "is_manual_helper": false,
+            "is_imstr_helper": false,
+            "has_imstr_helper": false,
+            "comments": {
+                "attached": "// HWND hwnd"
+            }
+        },
+        {
+            "name": "cImGui_ImplWin32_GetDpiScaleForMonitor",
+            "original_fully_qualified_name": "ImGui_ImplWin32_GetDpiScaleForMonitor",
+            "return_type": {
+                "declaration": "float",
+                "description": {
+                    "kind": "Builtin",
+                    "builtin_type": "float"
+                }
+            },
+            "arguments": [
+                {
+                    "name": "monitor",
+                    "type": {
+                        "declaration": "void*",
+                        "description": {
+                            "kind": "Pointer",
+                            "inner_type": {
+                                "kind": "Builtin",
+                                "builtin_type": "void"
+                            }
+                        }
+                    },
+                    "is_array": false,
+                    "is_varargs": false
+                }
+            ],
+            "is_default_argument_helper": false,
+            "is_manual_helper": false,
+            "is_imstr_helper": false,
+            "has_imstr_helper": false,
+            "comments": {
+                "attached": "// HMONITOR monitor"
+            }
+        },
+        {
+            "name": "cImGui_ImplWin32_EnableAlphaCompositing",
+            "original_fully_qualified_name": "ImGui_ImplWin32_EnableAlphaCompositing",
+            "return_type": {
+                "declaration": "void",
+                "description": {
+                    "kind": "Builtin",
+                    "builtin_type": "void"
+                }
+            },
+            "arguments": [
+                {
+                    "name": "hwnd",
+                    "type": {
+                        "declaration": "void*",
+                        "description": {
+                            "kind": "Pointer",
+                            "inner_type": {
+                                "kind": "Builtin",
+                                "builtin_type": "void"
+                            }
+                        }
+                    },
+                    "is_array": false,
+                    "is_varargs": false
+                }
+            ],
+            "is_default_argument_helper": false,
+            "is_manual_helper": false,
+            "is_imstr_helper": false,
+            "has_imstr_helper": false,
+            "comments": {
+                "attached": "// HWND hwnd"
+            }
+        }
+    ]
+}
